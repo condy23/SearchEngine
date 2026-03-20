@@ -1,0 +1,6 @@
+build/
+bin/
+data/corpus/
+*.o
+*.a
+.DS_Store
