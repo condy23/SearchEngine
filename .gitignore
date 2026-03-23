@@ -1,6 +1,7 @@
 build/
 bin/
 data/corpus/
+studay/
 *.o
 *.a
 .DS_Store
