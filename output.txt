@@ -1,0 +1,6 @@
+c 1
+hello 1
+love 1
+programming 1
+test 1
+world 1

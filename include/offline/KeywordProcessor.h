@@ -6,11 +6,11 @@
 class KeyWordProcessor {
  public:
   KeyWordProcessor();
-  void process(const std::string& chDir, const std::string& enDir);
+  void process(const std::string& ch_dir, const std::string& en_dir);
 
  private:
-  void create_en_dirt(const std::string& dir, const std::string& outfile);
+  void create_en_dict(const std::string& dir, const std::string& outfile);
 
  private:
-  std::set<std::string> m_enStopWords;
+  std::set<std::string> en_stop_words_;
 };
