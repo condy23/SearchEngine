@@ -17,3 +17,8 @@ add_executable(test_scanner
 add_executable(test_file
   test/test_file.cpp
 )
+add_executable(test_keyword
+    test/test_keyword.cpp
+    src/offline/KeywordProcessor.cpp
+    src/offline/DirectoryScanner.cpp
+)
